@@ -1,0 +1,8 @@
+{
+"base_stats" : [
+    "agility" : 10,
+    "strength" : 11,
+    "vitality" : 12,
+    "intelligence" : 13
+]
+}

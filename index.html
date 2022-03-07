@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="rpgStylesheet.css"/>
+    </head>
+    <body>
+        <div id="wrap">
+            <canvas id="background" style="z-index: 1">
+                //this is the tiled/battle background
+            </canvas>
+            <canvas id="canvas" style="z-index: 2">
+                //this is the canvas that changes
+            </canvas>
+            <div class="menu">
+                <ul>
+                    <li>Inventory</li>
+                    <li>Bestiary</li>
+                    <li>Character</li>
+                    <li>Quests</li>
+                    <li>Upgrades</li>
+                    <li>Quit</li>
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript" src = "rpg1.js"></script>
+        <script type="text/javascript" src="save_test.json"></script>
+        <div class="lower">
+            <button id="test">where dis</button>
+        </div>
+    </body>
+</html>

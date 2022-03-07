@@ -1,0 +1,38 @@
+.wrap{
+    display: block; 
+    margin: 0px auto;
+    width: 950px;
+}
+canvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    image-rendering: auto;
+}
+body {
+    width: 1000px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.menu {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    z-index: 10;
+    background-color: #8b5f33;
+}
+
+ul {
+    margin: inherit;
+    list-style-type: armenian;
+    font-family: fantasy;
+}
+li {
+    border-style: solid;
+    border-width: 1px;
+}
+
+#lower {
+    display: block;
+}
